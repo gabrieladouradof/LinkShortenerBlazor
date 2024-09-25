@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppLinkShort.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorAppLinkShort.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppLinkShort.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorAppLinkShort.props",
+      "PackagePath": "build\\BlazorAppLinkShort.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAppLinkShort.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppLinkShort.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorAppLinkShort.props",
+      "PackagePath": "buildTransitive\\BlazorAppLinkShort.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

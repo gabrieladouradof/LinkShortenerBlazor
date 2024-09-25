@@ -1,0 +1,17 @@
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\bin\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.deps.json
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\bin\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.runtimeconfig.json
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\bin\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\bin\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.pdb
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\bin\Debug\net8.0\BlazorAppLinkShort.Domain.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\bin\Debug\net8.0\BlazorAppLinkShort.Domain.pdb
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.csproj.AssemblyReference.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.AssemblyInfoInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.AssemblyInfo.cs
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.csproj.CoreCompileInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAp.DF0F0469.Up2Date
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\refint\BlazorAppLinkShort.Domain.Infra.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.pdb
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.genruntimeconfig.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain.Infra\obj\Debug\net8.0\ref\BlazorAppLinkShort.Domain.Infra.dll

@@ -1,0 +1,12 @@
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\bin\Debug\net8.0\BlazorAppLinkShort.Domain.deps.json
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\bin\Debug\net8.0\BlazorAppLinkShort.Domain.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\bin\Debug\net8.0\BlazorAppLinkShort.Domain.pdb
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.csproj.AssemblyReference.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.AssemblyInfoInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.AssemblyInfo.cs
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.csproj.CoreCompileInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\refint\BlazorAppLinkShort.Domain.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.pdb
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\ref\BlazorAppLinkShort.Domain.dll
