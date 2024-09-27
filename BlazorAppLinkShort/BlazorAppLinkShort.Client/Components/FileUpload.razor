@@ -1,0 +1,72 @@
+﻿@rendermode InteractiveWebAssembly
+@page "/fileupload"
+@using Microsoft.AspNetCore.Components.Forms
+
+
+<PageTitle>Upload de Arquivos</PageTitle>
+
+<h3>Upload de Arquivo</h3>
+ 
+<InputFile OnChange="OnInputFileChanges" multiple />
+<button @onclick="HandleFileUpload">Enviar</button> 
+
+@if (!string.IsNullOrEmpty(UploadMessage))
+{
+    <p>@UploadMessage</p>
+}
+
+@code {
+    private IReadOnlyList<IBrowserFile>? selectedFiles;
+    private string? UploadMessage;
+
+    //method for when the user the select one or more files
+    private async Task OnInputFileChanges(InputFileChangeEventArgs e)
+    {
+        selectedFiles = e.GetMultipleFiles();
+        await Task.CompletedTask;
+        UploadMessage = string.Empty;
+    }
+
+    //method for shared the files for the server
+    private async Task HandleFileUpload()
+    {
+        if (selectedFiles is not null && selectedFiles.Count > 0 )
+        {
+            try
+            {
+                //create the multiformpartadatacontent object for the shared files in the request
+                using var content = new MultipartFormDataContent();
+
+                foreach(var file in selectedFiles)
+                {
+                    content.Add(new StreamContent (file.OpenReadStream()), "files", file.Name);
+                }
+
+                var response = await Http.PostAsync("https://localhost:5001/UploadFile", content); //attention: confirm url //not functional
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var resultContent = await response.Content.ReadAsStringAsync();
+                    UploadMessage = $"Arquivos enviados com sucesso! {resultContent}";
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    UploadMessage = $"Falha ao enviar o arquivo: {errorContent}";
+                }
+            }
+            catch (Exception ex)
+            {
+                UploadMessage = $"Erro: {ex.Message}";
+
+            }
+        }
+        else
+        {
+            UploadMessage = "Por favor, selecione pelo menos um arquivo para enviar.";
+        }
+    }
+}
+
+
+

@@ -10,3 +10,4 @@ C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLi
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\refint\BlazorAppLinkShort.Domain.dll
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.pdb
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\ref\BlazorAppLinkShort.Domain.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort.Domain\obj\Debug\net8.0\BlazorAppLinkShort.Domain.sourcelink.json

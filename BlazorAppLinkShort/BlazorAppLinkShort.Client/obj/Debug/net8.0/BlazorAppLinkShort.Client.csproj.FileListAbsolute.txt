@@ -1491,3 +1491,4 @@ C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\refint\BlazorAppLinkShort.Client.dll
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.pdb
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\ref\BlazorAppLinkShort.Client.dll
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.sourcelink.json

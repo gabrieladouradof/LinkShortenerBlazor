@@ -14,8 +14,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 builder.Services.AddScoped<IFileRepository, FileRepository>();
 builder.Services.AddScoped<UploadFileHandler>();
-
 builder.Services.AddControllers();
+
 
 #region DbContext
 builder.Services.AddDbContext<DatabaseContext>(options =>

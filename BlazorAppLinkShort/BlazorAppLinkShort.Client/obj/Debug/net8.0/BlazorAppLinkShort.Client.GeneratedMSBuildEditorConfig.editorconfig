@@ -22,6 +22,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/dev/BlazorAppLinkShort/BlazorAppLinkShort/BlazorAppLinkShort.Client/Components/DownloadFile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb3dubG9hZEZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/BlazorAppLinkShort/BlazorAppLinkShort/BlazorAppLinkShort.Client/Components/FileUpload.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGaWxlVXBsb2FkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/dev/BlazorAppLinkShort/BlazorAppLinkShort/BlazorAppLinkShort.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

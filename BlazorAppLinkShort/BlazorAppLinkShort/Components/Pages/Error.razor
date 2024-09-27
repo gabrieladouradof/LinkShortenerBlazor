@@ -1,6 +1,6 @@
 ﻿@page "/Error"
 @using System.Diagnostics
-
+ 
 <PageTitle>Error</PageTitle>
 
 <h1 class="text-danger">Error.</h1>
@@ -25,7 +25,7 @@
 </p>
 
 @code{
-    [CascadingParameter]
+    [CascadingParameter] // cascade parameter: httpcontext will have the highest hierarchy
     private HttpContext? HttpContext { get; set; }
 
     private string? RequestId { get; set; }
@@ -33,4 +33,14 @@
 
     protected override void OnInitialized() =>
         RequestId = Activity.Current?.Id ?? HttpContext?.TraceIdentifier;
+
+    //specifications: for this page to work, there is interaction with other project files. They are:
+
+    //App.Razor: must be configured so that the page is redirected
+    //Imports.Razor: for using directives
+    //Program.cs: to configure the HtttpClient that we use in the code, the same applies to Dependency Injections
+    //MainLayout (optional): To standardize error.razor in a layout (example: @layput MainLayout)
+    //Sytlizations: CSS and JS
+    //NavigationManager: optional, for automatic redirection to problems
+
 }
