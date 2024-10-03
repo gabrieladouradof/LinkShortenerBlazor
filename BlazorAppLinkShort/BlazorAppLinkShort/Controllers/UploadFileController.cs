@@ -8,7 +8,6 @@ using TestUploadFile.Domain.Commands;
 namespace TestUploadFile.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
     public class UploadFileController : ControllerBase
     {
         private readonly IFileRepository _fileRepository;
@@ -23,6 +22,8 @@ namespace TestUploadFile.Controllers
         }
 
         [HttpPost]
+        //[ValidateAntiForgeryToken]
+        [Route("/fileupload2")]
         public async Task<IActionResult> Upload([FromForm] ICollection<IFormFile> files)
         {
             if (files == null || files.Count == 0)

@@ -1,10 +1,12 @@
 //using BlazorAppLinkShort.Client.Pages;
-using BlazorAppLinkShort.Components;
 using Domain.Handlers;
 using Domain.Infra.Repositories;
 using Domain.IRepositories;
 using Microsoft.EntityFrameworkCore;
 using TestUpload.Domain.Infra.Data;
+using BlazorAppLinkShort;
+using BlazorAppLinkShort.Components;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +16,19 @@ builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 builder.Services.AddScoped<IFileRepository, FileRepository>();
 builder.Services.AddScoped<UploadFileHandler>();
+builder.Services.AddHttpClient();
 builder.Services.AddControllers();
+//builder.Services.AddControllersWithViews(options =>
+//{
+//    options.Filters.Add(new IgnoreAntiforgeryTokenAttribute());
+//});
+
+
+builder.Services.AddScoped(sp => new HttpClient
+{
+    BaseAddress = new Uri("https://localhost:7095/")
+});
+
 
 
 #region DbContext
@@ -37,10 +51,15 @@ else
 }
 
 app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
+
+//ATTENTION: support anti counterfeiting. find out more: https://learn.microsoft.com/en-us/aspnet/core/blazor/security/?view=aspnetcore-8.0
+app.UseAntiforgery();
+
 app.MapControllers();
 app.UseStaticFiles();
-app.UseAntiforgery();
+
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()

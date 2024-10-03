@@ -22,7 +22,8 @@ namespace TestUploadFile.Api.Controllers
         }
 
     [HttpGet]
-    public async Task<IActionResult> Download(string code)
+    
+        public async Task<IActionResult> Download(string code)
     {
         //Search the file in the database by code
         var fileEntity = await _fileRepository.GetByFileCodeAsync(code);

@@ -1,21 +1,19 @@
 ﻿@rendermode InteractiveWebAssembly
 @page "/fileupload"
-@using Microsoft.AspNetCore.Components.Forms
-
+@inject HttpClient Http
 
 <PageTitle>Upload de Arquivos</PageTitle>
 
 <h3>Upload de Arquivo</h3>
  
-<InputFile OnChange="OnInputFileChanges" multiple />
-<button @onclick="HandleFileUpload">Enviar</button> 
+<form method="post" @onsubmit="HandleFileUpload">
 
-@if (!string.IsNullOrEmpty(UploadMessage))
-{
-    <p>@UploadMessage</p>
-}
+    <InputFile OnChange="OnInputFileChanges" multiple />
+    <button type="submit"> Enviar</button>
+</form>
 
 @code {
+
     private IReadOnlyList<IBrowserFile>? selectedFiles;
     private string? UploadMessage;
 
@@ -23,6 +21,10 @@
     private async Task OnInputFileChanges(InputFileChangeEventArgs e)
     {
         selectedFiles = e.GetMultipleFiles();
+
+        //test - OK
+        Console.WriteLine($"Arquivos selecionados com sucesso: {selectedFiles.Count}");
+
         await Task.CompletedTask;
         UploadMessage = string.Empty;
     }
@@ -39,11 +41,15 @@
 
                 foreach(var file in selectedFiles)
                 {
+                    //test
+                    Console.WriteLine($"Adicionando arquivos: {file.Name}");
+
+                    //!!
                     content.Add(new StreamContent (file.OpenReadStream()), "files", file.Name);
                 }
 
-                var response = await Http.PostAsync("https://localhost:5001/UploadFile", content); //attention: confirm url //not functional
-
+                var response = await Http.PostAsync("https://localhost:7095/fileupload2", content); //attention: confirm url 
+                 
                 if (response.IsSuccessStatusCode)
                 {
                     var resultContent = await response.Content.ReadAsStringAsync();
@@ -58,7 +64,6 @@
             catch (Exception ex)
             {
                 UploadMessage = $"Erro: {ex.Message}";
-
             }
         }
         else
