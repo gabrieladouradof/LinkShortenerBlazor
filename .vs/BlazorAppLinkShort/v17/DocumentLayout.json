@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\dev\\BlazorAppLinkShort\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\components\\fileupload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\components\\fileupload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\controllers\\downloadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\controllers\\downloadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\programserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\components\\fileupload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\components\\fileupload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\controllers\\downloadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\controllers\\downloadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\programclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,33 +62,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
-              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-03T17:59:57.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "DocumentIndex": 0,
+              "Title": "FileUpload.razor",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T17:50:39.41Z",
+              "WhenOpened": "2024-09-26T15:54:50.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "UploadFileController.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:22:57.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DownloadFileController.cs",
               "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\DownloadFileController.cs",
               "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\DownloadFileController.cs",
@@ -101,6 +101,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T17:50:39.41Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "FileRepository.cs",
               "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain.Infra\\Repositories\\FileRepository.cs",
@@ -109,25 +121,11 @@
               "RelativeToolTip": "BlazorAppLinkShort.Domain.Infra\\Repositories\\FileRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T16:45:51.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T16:45:51.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileUpload.razor",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
-              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T15:54:50.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProgramServer.cs",
               "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\ProgramServer.cs",
               "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\ProgramServer.cs",
@@ -135,8 +133,7 @@
               "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\ProgramServer.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:36:00.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:36:00.791Z"
             },
             {
               "$type": "Document",
@@ -148,21 +145,19 @@
               "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T15:45:01.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T15:45:01.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UploadFileController.cs",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
-              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAEwCkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T17:22:57.499Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T17:59:57.516Z"
             },
             {
               "$type": "Document",
@@ -174,8 +169,7 @@
               "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\ProgramClient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T17:05:30.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T17:05:30.072Z"
             }
           ]
         }

@@ -50,15 +50,17 @@
 
                 var response = await Http.PostAsync("https://localhost:7095/fileupload2", content); //attention: confirm url 
                  
+                var resultContent = await response.Content.ReadFromJsonAsync<ApiResponse>();
+
                 if (response.IsSuccessStatusCode)
                 {
-                    var resultContent = await response.Content.ReadAsStringAsync();
+                    
                     UploadMessage = $"Arquivos enviados com sucesso! {resultContent}";
                 }
                 else
                 {
                     var errorContent = await response.Content.ReadAsStringAsync();
-                    UploadMessage = $"Falha ao enviar o arquivo: {errorContent}";
+                    UploadMessage = $"Falha ao enviar o arquivo: {string.Join(", ", resultContent.files.Select(f => f.fileCode))}"";
                 }
             }
             catch (Exception ex)
