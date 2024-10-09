@@ -4,13 +4,19 @@
 
 <PageTitle>Upload de Arquivos</PageTitle>
 
-<h3>Upload de Arquivo</h3>
+<h1 class="text-center text-primary p-5">Upload de Arquivo</h1>
  
-<form method="post" @onsubmit="HandleFileUpload">
+    <form method="post" @onsubmit="HandleFileUpload">
+        <InputFile OnChange="OnInputFileChanges" multiple />
+        <button type="submit"> Enviar</button>
+    </form>
 
-    <InputFile OnChange="OnInputFileChanges" multiple />
-    <button type="submit"> Enviar</button>
-</form>
+
+
+@if (!string.IsNullOrEmpty(UploadMessage))
+{
+    <p>@UploadMessage</p> 
+}
 
 @code {
 
@@ -44,23 +50,25 @@
                     //test
                     Console.WriteLine($"Adicionando arquivos: {file.Name}");
 
-                    //!!
+
                     content.Add(new StreamContent (file.OpenReadStream()), "files", file.Name);
                 }
 
                 var response = await Http.PostAsync("https://localhost:7095/fileupload2", content); //attention: confirm url 
-                 
+
                 var resultContent = await response.Content.ReadFromJsonAsync<ApiResponse>();
 
                 if (response.IsSuccessStatusCode)
                 {
-                    
-                    UploadMessage = $"Arquivos enviados com sucesso! {resultContent}";
+
+                    UploadMessage = $"Arquivos enviados com sucesso! Códigos gerados: {string.Join(", ", resultContent.files.Select(f => f.fileCode))}";
+                    //StateHasChanged();
+                    Console.WriteLine(UploadMessage);
                 }
                 else
                 {
                     var errorContent = await response.Content.ReadAsStringAsync();
-                    UploadMessage = $"Falha ao enviar o arquivo: {string.Join(", ", resultContent.files.Select(f => f.fileCode))}"";
+                    UploadMessage = $"Falha ao enviar o arquivo";
                 }
             }
             catch (Exception ex)
@@ -73,6 +81,19 @@
             UploadMessage = "Por favor, selecione pelo menos um arquivo para enviar.";
         }
     }
+    public class ApiResponse
+    {
+        public bool Success { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public List<FileResponse> files { get; set; } 
+    }
+
+    public class FileResponse
+    {
+        public string fileCode { get; set; } = string.Empty;
+        public string FilePath { get; set; } = string.Empty;
+    }
+
 }
 
 

@@ -1,11 +1,53 @@
 ﻿@rendermode InteractiveWebAssembly
-@page "/downloadfile"
+@page "/filedownload"
+@inject HttpClient Http
+@using BlazorAppLinkShort
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@inject NavigationManager Navigation
 
-<h3>Download de Arquivos</h3>
+<PageTitle>Download de Arquivo</PageTitle>
 
+<h1 class="text-center text-primary p-5">Download de Arquivos</h1>
 
+<form @onsubmit="HandleFileDownload">
+    <label for="fileCode">Insira o código do arquivo:</label>
+    <input type="text" id="fileCode" @bind="fileCode" required />
+    <button class="btn btn-outline-primary">Baixar Arquivo</button>
+</form>
 
+@if (!string.IsNullOrEmpty(DownloadMessage))
+{
+    <p>@DownloadMessage</p>
+}
 
 @code {
+    private string? fileCode;
+    private string? DownloadMessage;
 
+    private async Task HandleFileDownload()
+    {
+        if (!string.IsNullOrEmpty(fileCode))
+        {
+            var downloadUrl = $"https://localhost:7095/v1/download?code={fileCode}";
+            Navigation.NavigateTo(downloadUrl, forceLoad: true);
+
+
+            // if (downloadUrl.IsSuccessStatusCode)
+            // {
+            //     var fileName = downloadUrl.Content.Headers.ContentDisposition?.FileName ?? "arquivo_desconhecido";
+            //     var fileBytes = await downloadUrl.Content.ReadAsByteArrayAsync();
+
+
+            //     DownloadMessage = $"Arquivo {fileName} baixado com sucesso!";
+            //     }
+            //     else
+            //     {
+            //         DownloadMessage = "Falha ao baixar o arquivo. Código Inválido.";
+            //     }   
+        }
+        else
+        {
+            DownloadMessage = "Por favor, insira um código de arquivo válido.";
+        }
+    }
 }

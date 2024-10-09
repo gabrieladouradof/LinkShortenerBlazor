@@ -29,8 +29,6 @@ builder.Services.AddScoped(sp => new HttpClient
     BaseAddress = new Uri("https://localhost:7095/")
 });
 
-
-
 #region DbContext
 builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),

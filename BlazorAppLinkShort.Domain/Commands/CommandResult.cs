@@ -36,7 +36,7 @@ namespace TestUpload.Domain.Commands
         public HttpStatusCode HttpStatusCode { get; set; } = HttpStatusCode.Unused;
         public bool Success { get; set; } = false;
         public string Message { get; set; } = string.Empty;
-        public object? Data { get; set; } = null;
+        public object Data { get; set; } = null;
 
         public HttpStatusCode GetStatusCode() => this.HttpStatusCode;
         public bool Succeeded() => this.Success;

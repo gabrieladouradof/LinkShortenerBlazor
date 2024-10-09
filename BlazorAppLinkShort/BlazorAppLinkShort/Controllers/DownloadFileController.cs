@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 namespace TestUploadFile.Api.Controllers
 {
     [ApiController]
-    [Route("v1/download")]
     public class DownloadFileController : ControllerBase
     {
         private readonly IFileRepository _fileRepository;
@@ -22,7 +21,7 @@ namespace TestUploadFile.Api.Controllers
         }
 
     [HttpGet]
-    
+    [Route("v1/download")]
         public async Task<IActionResult> Download(string code)
     {
         //Search the file in the database by code

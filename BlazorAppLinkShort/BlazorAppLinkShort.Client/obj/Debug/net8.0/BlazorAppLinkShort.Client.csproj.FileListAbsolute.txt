@@ -1,3 +1,10 @@
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.csproj.AssemblyReference.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.AssemblyInfoInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.AssemblyInfo.cs
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.csproj.CoreCompileInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.sourcelink.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\bin\Debug\net8.0\wwwroot\_framework\BlazorAppLinkShort.Client.pdb
@@ -888,12 +895,6 @@ C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\bin\Debug
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\bin\Debug\net8.0\icudt_CJK.dat
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\bin\Debug\net8.0\icudt_no_CJK.dat
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.csproj.AssemblyReference.cache
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.GeneratedMSBuildEditorConfig.editorconfig
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.AssemblyInfoInputs.cache
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.AssemblyInfo.cs
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.csproj.CoreCompileInputs.cache
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\webcil\BouncyCastle.Crypto.wasm
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\webcil\Flunt.wasm
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\webcil\Google.Protobuf.wasm
@@ -1491,4 +1492,3 @@ C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\refint\BlazorAppLinkShort.Client.dll
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.pdb
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\ref\BlazorAppLinkShort.Client.dll
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort.Client\obj\Debug\net8.0\BlazorAppLinkShort.Client.sourcelink.json

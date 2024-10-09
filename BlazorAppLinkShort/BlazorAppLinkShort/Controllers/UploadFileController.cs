@@ -58,6 +58,7 @@ namespace TestUploadFile.Controllers
                 message = result.Message,
                 files = result.Data
             }); ;
+            
         }
     }
 }

@@ -1,0 +1,39 @@
+﻿/* app.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f3f3; /* Fundo claro */
+    color: #29abc8; 
+}
+
+.navbar {
+    background-color: #ff0000;
+}
+
+    .navbar a {
+        color: white;
+    }
+
+.page {
+    padding: 20px;
+}
+
+.upload-container, .download-container {
+    background-color: black; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+}
+
+    .upload-container h2, .download-container h2 {
+        color: #6a0dad;
+    }
+
+.btn {
+    background-color: #6a0dad; 
+    color: white;
+}
+
+    .btn:hover {
+        background-color: #5a0a9e; /* Escurecer ao passar o mouse */
+    }
