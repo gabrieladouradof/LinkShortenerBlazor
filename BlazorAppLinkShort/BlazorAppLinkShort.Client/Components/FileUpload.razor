@@ -47,10 +47,8 @@
 
                 foreach(var file in selectedFiles)
                 {
-                    //test
+                    
                     Console.WriteLine($"Adicionando arquivos: {file.Name}");
-
-
                     content.Add(new StreamContent (file.OpenReadStream()), "files", file.Name);
                 }
 
@@ -62,7 +60,7 @@
                 {
 
                     UploadMessage = $"Arquivos enviados com sucesso! Códigos gerados: {string.Join(", ", resultContent.files.Select(f => f.fileCode))}";
-                    //StateHasChanged();
+                    
                     Console.WriteLine(UploadMessage);
                 }
                 else

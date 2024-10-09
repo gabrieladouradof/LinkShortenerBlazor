@@ -1,10 +1,3 @@
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.csproj.AssemblyReference.cache
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.GeneratedMSBuildEditorConfig.editorconfig
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.AssemblyInfoInputs.cache
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.AssemblyInfo.cs
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.csproj.CoreCompileInputs.cache
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.MvcApplicationPartsAssemblyInfo.cache
-C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.sourcelink.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\bin\Debug\net8.0\BlazorAppLinkShort.Client.staticwebassets.runtime.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\bin\Debug\net8.0\appsettings.Development.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\bin\Debug\net8.0\appsettings.json
@@ -139,6 +132,13 @@ C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\bin\Debug\net8.0
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\bin\Debug\net8.0\BlazorAppLinkShort.Domain.Infra.pdb
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\bin\Debug\net8.0\BlazorAppLinkShort.Domain.pdb
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\bin\Debug\net8.0\BlazorAppLinkShort.Client.pdb
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.csproj.AssemblyReference.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.AssemblyInfoInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.AssemblyInfo.cs
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.csproj.CoreCompileInputs.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\BlazorAppLinkShort.sourcelink.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\staticwebassets.build.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\staticwebassets.development.json
 C:\dev\BlazorAppLinkShort\BlazorAppLinkShort\BlazorAppLinkShort\obj\Debug\net8.0\staticwebassets\msbuild.BlazorAppLinkShort.Microsoft.AspNetCore.StaticWebAssets.props

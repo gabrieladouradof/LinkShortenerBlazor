@@ -1,18 +1,19 @@
 ﻿@rendermode InteractiveWebAssembly
 @page "/filedownload"
 @inject HttpClient Http
-@using BlazorAppLinkShort
-@using Microsoft.EntityFrameworkCore.Metadata.Internal
-@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
 
 <PageTitle>Download de Arquivo</PageTitle>
 
 <h1 class="text-center text-primary p-5">Download de Arquivos</h1>
 
 <form @onsubmit="HandleFileDownload">
-    <label for="fileCode">Insira o código do arquivo:</label>
-    <input type="text" id="fileCode" @bind="fileCode" required />
-    <button class="btn btn-outline-primary">Baixar Arquivo</button>
+    <label for="fileCodes">Insira o código do arquivo:</label>
+    <h4>Caso seja mais 1 (um) arquivo, por favor insira separados por uma vírgula. ","</h4>
+    <input type="text" id="fileCodes" @bind="fileCodes" required />
+
+    <button class="btn btn-outline-primary">Baixar Arquivo (s)</button>
 </form>
 
 @if (!string.IsNullOrEmpty(DownloadMessage))
@@ -21,33 +22,35 @@
 }
 
 @code {
-    private string? fileCode;
+    private string? fileCodes;
     private string? DownloadMessage;
 
     private async Task HandleFileDownload()
     {
-        if (!string.IsNullOrEmpty(fileCode))
+        if (!string.IsNullOrEmpty(fileCodes))
         {
-            var downloadUrl = $"https://localhost:7095/v1/download?code={fileCode}";
-            Navigation.NavigateTo(downloadUrl, forceLoad: true);
+            var codes = fileCodes.Split(',').Select(c => c.Trim()).ToList();
+            
+            //The files are not being passed in a list, as the integration with Javascript needed to be done.
 
+            foreach (var code in codes)
+            {
+                var response = $"https://localhost:7095/v1/download?code={code}";
+                
+                //JsRuntime is the library the javascript that supports c#: https://learn.microsoft.com/pt-br/dotnet/api/microsoft.jsinterop.jsruntimeextensions.invokevoidasync?view=aspnetcore-8.0
+                await JSRuntime.InvokeVoidAsync("downloadFile", response);
+            }
 
-            // if (downloadUrl.IsSuccessStatusCode)
-            // {
-            //     var fileName = downloadUrl.Content.Headers.ContentDisposition?.FileName ?? "arquivo_desconhecido";
-            //     var fileBytes = await downloadUrl.Content.ReadAsByteArrayAsync();
-
-
-            //     DownloadMessage = $"Arquivo {fileName} baixado com sucesso!";
-            //     }
-            //     else
-            //     {
-            //         DownloadMessage = "Falha ao baixar o arquivo. Código Inválido.";
-            //     }   
+            DownloadMessage = $"Solicitação de download para os arquivos com códigos: {string.Join(", ", codes)}.";
         }
         else
         {
-            DownloadMessage = "Por favor, insira um código de arquivo válido.";
+            DownloadMessage = "Por favor, insira pelo menos um código de arquivo válido.";
         }
     }
+
+
+        
+   
 }
+

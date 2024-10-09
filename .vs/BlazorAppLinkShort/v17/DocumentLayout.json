@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\dev\\BlazorAppLinkShort\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\components\\downloadfile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\components\\downloadfile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\programserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\programserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\components\\fileupload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\components\\fileupload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort.domain\\commands\\commandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|solutionrelative:blazorapplinkshort.domain\\commands\\commandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\components\\downloadfile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\components\\downloadfile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\programclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\programclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\controllers\\downloadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\controllers\\downloadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\wwwroot\\download.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\wwwroot\\download.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort.domain\\entities\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|solutionrelative:blazorapplinkshort.domain\\entities\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort.domain\\commands\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|solutionrelative:blazorapplinkshort.domain\\commands\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort.domain\\commands\\commandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|solutionrelative:blazorapplinkshort.domain\\commands\\commandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort.domain\\entities\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF611DB0-E0B4-44AF-9FAB-14F7D599DE6D}|BlazorAppLinkShort.Domain\\BlazorAppLinkShort.Domain.csproj|solutionrelative:blazorapplinkshort.domain\\entities\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B3E2FA6-573D-481D-9AD3-4F2136BEC72F}|BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|c:\\dev\\blazorapplinkshort\\blazorapplinkshort\\blazorapplinkshort.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F9474AC-249D-42A2-82FF-438EDEF478C1}|BlazorAppLinkShort\\BlazorAppLinkShort.Client\\BlazorAppLinkShort.Client.csproj|solutionrelative:blazorapplinkshort\\blazorapplinkshort.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +62,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\App.razor",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\App.razor",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\App.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T16:37:51.029Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -51,67 +92,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProgramServer.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\ProgramServer.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\ProgramServer.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\ProgramServer.cs",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\ProgramServer.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAMwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:22:25.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DownloadFile.razor",
               "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\DownloadFile.razor",
               "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\DownloadFile.razor",
               "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\DownloadFile.razor",
               "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\DownloadFile.razor",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-09T14:27:15.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
-              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T14:13:00.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommandResult.cs",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
-              "RelativeToolTip": "BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:09:59.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UploadFileCommand.cs",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
-              "RelativeToolTip": "BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Title": "ProgramClient.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\ProgramClient.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\ProgramClient.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\ProgramClient.cs",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\ProgramClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:09:58.188Z",
+              "WhenOpened": "2024-10-09T18:22:20.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FileEntity.cs",
-              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
-              "RelativeDocumentMoniker": "BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
-              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
-              "RelativeToolTip": "BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Title": "UploadFileController.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\UploadFileController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:09:37.871Z",
+              "WhenOpened": "2024-10-09T18:14:12.298Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DownloadFileController.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\DownloadFileController.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\DownloadFileController.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\DownloadFileController.cs",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Controllers\\DownloadFileController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:13:58.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommandResult.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
+              "RelativeToolTip": "BlazorAppLinkShort.Domain\\Commands\\CommandResult.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:09:59.414Z"
             },
             {
               "$type": "Document",
@@ -121,10 +174,70 @@
               "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
               "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
               "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\Components\\FileUpload.razor",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwD8AAABpAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-08T15:17:13.762Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "download.js",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\download.js",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\download.js",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\download.js",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\download.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-09T16:33:54.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Routes.razor",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T17:40:56.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
+              "RelativeToolTip": "BlazorAppLinkShort\\BlazorAppLinkShort.Client\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T14:13:00.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UploadFileCommand.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
+              "RelativeToolTip": "BlazorAppLinkShort.Domain\\Commands\\UploadFileCommand.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:09:58.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileEntity.cs",
+              "DocumentMoniker": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
+              "RelativeDocumentMoniker": "BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
+              "ToolTip": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
+              "RelativeToolTip": "BlazorAppLinkShort.Domain\\Entities\\FileEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:09:37.871Z"
             }
           ]
         }

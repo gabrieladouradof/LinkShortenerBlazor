@@ -5,7 +5,6 @@ using Domain.IRepositories;
 using Microsoft.EntityFrameworkCore;
 using TestUpload.Domain.Infra.Data;
 using BlazorAppLinkShort;
-using BlazorAppLinkShort.Components;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -65,3 +64,5 @@ app.MapRazorComponents<App>()
     .AddAdditionalAssemblies(typeof(BlazorAppLinkShort.Client._Imports).Assembly);
 
 app.Run();
+
+

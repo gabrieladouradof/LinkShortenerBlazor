@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MS91MzUhoolIUmHKhbpBOCnGHYlWaFVGl0wQka093SQ=",
+  "Hash": "qZNhvrXMghSthulQ3gjxVfq4bU5J9RYDVvtIwB6FQrE=",
   "Source": "BlazorAppLinkShort",
   "BasePath": "_content/BlazorAppLinkShort",
   "Mode": "Default",
@@ -11453,6 +11453,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\download.js",
+      "SourceId": "BlazorAppLinkShort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\",
+      "BasePath": "_content/BlazorAppLinkShort",
+      "RelativePath": "download.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\download.js"
     },
     {
       "Identity": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\favicon.png",

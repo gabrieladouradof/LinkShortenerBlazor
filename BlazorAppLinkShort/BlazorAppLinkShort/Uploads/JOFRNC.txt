@@ -1,0 +1,137 @@
+Eu preciso desenvolver uma aplicação WEB com Blazor e WebAssembly, um encurtador de links.
+
+Vamos a receita de bolo: 
+
+1 - Uma pagina web para selecionar e inserir um arquivo 
+
+2 - O arquivo deve ser enviado via requisição POST Multi Post Form Data
+
+3 - Na api deve existir um post Vi/Upload - ok
+
+4 - O arquivo deve ser salvado no disco
+
+5 - O get pode ser dado via URL mesmo 
+Ex:
+	GET v1/download/<codigo>
+
+Que código e esse?
+Esse código e um código de 6 caracteres, independente se e numero ou letras que foi gerado e armazenado no banco de dados.
+
+Mas para que? 
+Esse código deve ser armazenado no Banco de dados juntamente com o caminho de arquivo do arquivo que foi enviado. OU SEJA, ao requerer a função GET o usuário deve receber o arquivo original que ele enviou.
+
+No banco então, fica: CAMINHO DO ARQUIVO e CODIGO GERADO PARA O ARQUIVO
+
+Esse exercício percorre, API, requisições post e  get, interface web via blazor, interação da API com BlazorWeb Assembly, banco de dados e armazenamento local, dos arquivos via Disco.
+
+Duvidas:
+
+Exibo o arquivo, o nome ou o caminho?
+Arquitetura: arquitetura do blazor ainda e desconhecida, mas preciso criar a API com domínios ricos com a solidez que já foi aprendida, mas como linkar de forma assertiva isso com o WebAssembly?
+
+O que precisa estar solido pra entender?
+
+Blazor
+Blazor Web Assembly
+Como recebemos arquivos de entrada com o Multi Part Form Data OK
+Como gerar esse código e linkar com o arquivo 
+Como salvar o arquivo no disco
+Como solidificar as requisições, ex via GET ou Post
+Como linkar as duas sintaxes, já que terão uma estrutura diferente
+Como fazer a conexão com o banco via Blazor WASM
+ 
+
+
+O que eu tenho? - 11/09/2024
+
+Uma aplicação blazor genérica, com um serviço FileCollectionService, que tem configuração do http cliente e configuração do multipartform data
+Além disso, tem uma configuração no program pra conectar com a API, que eu não tenho certeza se esta funcionando
+
+tenho uma aplicação asp.net 8, uma api que já esta na estrutura de arquitetura. com pasta api, domain, e domain infra
+possuo um controller POST na api, o FileCollectionController, que esta com a configuração para receber arquivos através do multipartform data tb, mas o controller no Swagger não esta funcionando ainda pois não tem parâmetros de entrada
+
+tenho um modelo de entidade genérica padrão com varias propriedades que peguei de um template, nele ele herda de notifiable do pacote flunt, e tenho mais uma entidade que declaro propriedades do arquivo, no caso o código do arquivo (que eu vou precisar gerar) e o caminho do arquivo, ambas classes precisarão estar no banco. mas eu ainda não rodei as migrations
+
+além disso tenho uma estrutura genérica, com repositórios (duas pastas, uma para interfaces), tenho os commands que também so tenho um modelo genérico, também tenho enums, com status de ativo, inativo e deletado (que acredito que não serão uteis), tenho também um serviço para coletar os arquivos, que esta parecido com a estrutura do meu controller POST. e tenho o program com a mesma estrutura do program do blazorwasm, onde eu configuro o CORS para tentar linkar a API.
+
+
+
+using Microsoft.AspNetCore.Mvc;
+using YourApp.Domain.Services;
+
+namespace YourApp.API.Controllers
+{
+    [Route("v1/upload")]
+    [ApiController]
+    public class FileCollectionController : ControllerBase
+    {
+        private readonly ArquivoService _arquivoService;
+
+        public FileCollectionController(ArquivoService arquivoService)
+        {
+            _arquivoService = arquivoService;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UploadFile([FromForm] IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("Nenhum arquivo foi enviado.");
+            }
+
+            var filePath = Path.Combine("uploads", file.FileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            await _arquivoService.SalvarArquivoAsync(filePath);
+
+            return Ok("Arquivo salvo com sucesso.");
+        }
+    }
+}
+
+DIA 24/09/2024
+
+O que eu tenho? 
+Api estruturada recebendo arquivos Multpartformdata, banco com Tabela Files, com coluna de Id, FilePath, FileCode e CreatedAt
+Aplicação Blazor Simples e genérica
+
+o que falta na minha API?
+Salvar os arquivos no disco
+Salvar o código e o path no arquivo
+Criar o endpoint de GET, relembrando:
+
+5 - O get pode ser dado via URL mesmo 
+Ex:
+	GET v1/download/<codigo>
+
+Que código e esse?
+Esse código e um código de 6 caracteres, independente se e numero ou letras que foi gerado e armazenado no banco de dados.
+
+Mas para que? 
+Esse código deve ser armazenado no Banco de dados juntamente com o caminho de arquivo do arquivo que foi enviado. OU SEJA, ao requerer a função GET o usuário deve receber o arquivo original que ele enviou.
+
+No banco então, fica: CAMINHO DO ARQUIVO e CODIGO GERADO PARA O ARQUIVO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
+      "Id": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\download.js",
+      "PackagePath": "staticwebassets\\download.js"
+    },
+    {
       "Id": "C:\\dev\\BlazorAppLinkShort\\BlazorAppLinkShort\\BlazorAppLinkShort\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
